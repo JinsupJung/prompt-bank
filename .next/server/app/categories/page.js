@@ -452,7 +452,7 @@ const Categories = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [799,872,222,558,95,423], () => (__webpack_exec__(7696)));
+var __webpack_exports__ = __webpack_require__.X(0, [799,872,907,558,440,423], () => (__webpack_exec__(7696)));
 module.exports = __webpack_exports__;
 
 })();

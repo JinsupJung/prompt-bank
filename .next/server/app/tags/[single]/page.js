@@ -415,21 +415,6 @@ const TagSingle = ({ params  })=>{
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TagSingle);
 
 
-/***/ }),
-
-/***/ 2700:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _lib_utils_textConverter__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1665);
-
-const taxonomyFilter = (posts, name, key)=>posts.filter((post)=>//@ts-ignore
-        post.frontmatter[name].map((name)=>(0,_lib_utils_textConverter__WEBPACK_IMPORTED_MODULE_0__/* .slugify */ .lV)(name)).includes(key));
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (taxonomyFilter);
-
-
 /***/ })
 
 };
@@ -439,7 +424,7 @@ const taxonomyFilter = (posts, name, key)=>posts.filter((post)=>//@ts-ignore
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [799,872,795,997,114,117,222,558,95,221,423,648], () => (__webpack_exec__(3633)));
+var __webpack_exports__ = __webpack_require__.X(0, [799,872,795,997,114,117,907,558,440,221,423,527], () => (__webpack_exec__(3633)));
 module.exports = __webpack_exports__;
 
 })();

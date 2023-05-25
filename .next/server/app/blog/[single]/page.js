@@ -375,18 +375,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7523:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9222, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8301, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3751, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4765, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5192, 23))
-
-/***/ }),
-
-/***/ 7152:
+/***/ 9110:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 53, 23));
@@ -396,9 +385,9 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2144, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2221));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8013));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9211));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8485));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 387));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8485));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9211));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1390));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 8959))
 
@@ -415,21 +404,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _config_config_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1584);
-/* harmony import */ var disqus_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9904);
-/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5176);
+/* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5176);
 /* __next_internal_client_entry_do_not_use__ default auto */ 
-
 
 
 const Disqus = ({ className  })=>{
     const { disqus  } = _config_config_json__WEBPACK_IMPORTED_MODULE_1__;
-    const { theme  } = (0,next_themes__WEBPACK_IMPORTED_MODULE_3__/* .useTheme */ .F)();
+    const { theme  } = (0,next_themes__WEBPACK_IMPORTED_MODULE_2__/* .useTheme */ .F)();
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
         className: className,
-        children: disqus.enable && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(disqus_react__WEBPACK_IMPORTED_MODULE_2__/* .DiscussionEmbed */ .qw, {
-            shortname: disqus.shortname,
-            config: disqus.settings
-        })
+        children: "Hello"
     }, theme);
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Disqus);
@@ -790,7 +774,7 @@ const similerItems = (currentItem, allItems, slug)=>{
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [799,872,795,997,114,117,152,691,222,558,221], () => (__webpack_exec__(8464)));
+var __webpack_exports__ = __webpack_require__.X(0, [799,872,795,997,114,117,152,907,558,221], () => (__webpack_exec__(8464)));
 module.exports = __webpack_exports__;
 
 })();

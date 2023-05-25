@@ -1,17 +1,17 @@
 {
-  "/page": "/",
   "/_not-found": "/_not-found",
+  "/page": "/",
   "/[regular]/page": "/[regular]",
   "/about/page": "/about",
-  "/blog/page": "/blog",
-  "/authors/page": "/authors",
   "/categories/page": "/categories",
+  "/authors/page": "/authors",
   "/tags/page": "/tags",
-  "/search/page": "/search",
   "/contact/page": "/contact",
+  "/blog/page": "/blog",
+  "/search/page": "/search",
+  "/blog/[single]/page": "/blog/[single]",
   "/authors/[single]/page": "/authors/[single]",
   "/categories/[single]/page": "/categories/[single]",
-  "/blog/[single]/page": "/blog/[single]",
   "/tags/[single]/page": "/tags/[single]",
   "/blog/page/[page]/page": "/blog/page/[page]"
 }
