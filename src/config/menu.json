@@ -1,0 +1,57 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "우리는",
+      "url": "/about"
+    },
+    {
+      "name": "Elements",
+      "url": "/elements"
+    },
+    {
+      "name": "Pages",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Contact",
+          "url": "/contact"
+        },
+        {
+          "name": "블로그",
+          "url": "/blog"
+        },
+        {
+          "name": "Founders",
+          "url": "/authors"
+        },
+        {
+          "name": "카테고리",
+          "url": "/categories"
+        },
+        {
+          "name": "검색",
+          "url": "/search"
+        },
+        {
+          "name": "404 Page",
+          "url": "/404"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "서비스 이용약관",
+      "url": "/elements"
+    },
+    {
+      "name": "개인정보 취급방침",
+      "url": "/privacy-policy"
+    }
+  ]
+}
